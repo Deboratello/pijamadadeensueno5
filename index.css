@@ -1,6 +1,6 @@
 /* Error: Undefined variable.
  *   ,
- * 2 |     $coral: #ef7a75, 
+ * 2 |     $coral: #ef7a75,
  *   |     ^^^^^^
  *   '
  *   scss\_color.scss 2:5  @import
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      $coral: #ef7a75, \d\a   \2502      ^^^^^^\a   \2575 \a   scss\\_color.scss 2:5  @import\a   index.scss 2:9        root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      $coral: #ef7a75,\d\a   \2502      ^^^^^^\a   \2575 \a   scss\\_color.scss 2:5  @import\a   index.scss 2:9        root stylesheet";
 }
