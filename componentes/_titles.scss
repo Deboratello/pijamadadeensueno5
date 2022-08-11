@@ -1,7 +1,7 @@
 h1{
     padding-top: 10px;
     font-family: Duper;
-    Color: $coral;
+    Color: map-get($color: coral);
     font-size: x-large;
 }
 h2{
