@@ -1,38 +1,38 @@
 h1{
     padding-top: 10px;
     font-family: Duper;
-    Color: map-get($color: coral);
+    Color: map-get($colors, coralito);
     font-size: x-large;
 }
 h2{
     font-family: eigerdals;
-    color: $verdeclaro;
+    color: map-get($colors, verdeclaro);
     font-size: large;
 }
 legend{
     font-family: eigerdals;
-    Color: $verdeclaro;
+    Color: map-get($colors, verdeclaro);
     font-size: medium;
 }
 h3{
     font-family: Eigerdals;
-    color: $coral;
+    color: map-get($colors, coralito);
     font-size: medium;
 }
 h4{
     font-family: duper;
-    color: $blanco;
+    color: map-get($colors, blanco);
     font-size: xx-large;
 }
 h5{
     padding-top: 20px;
     font-family: duper;
-    color: $coral;
+    color: map-get($colors, coralito);
     font-size: xx-large;
 }
 p{
     font-family: Eigerdals;
     font-size: medium;
-    color: $verdeoscuro;    
+    color: map-get($colors, verdeoscuro);    
     text-align: justify;
 }
