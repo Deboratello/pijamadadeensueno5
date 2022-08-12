@@ -48,9 +48,29 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button type="button" class="btn btn-outline-light"><i
-                            class="fa-solid fa-cart-shopping"></i></button>
-                </form>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#carrito"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="carrito" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Carrito de compras</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Atrás</button>
+                                    <button type="button" class="btn btn-primary">Finalizar Compra</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <form class="d-flex">
                     <input class="form-control me-sm-2" type="text" placeholder="Buscar">
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
@@ -106,10 +126,10 @@
             <p class="card-text">Para esta experiencia podrás compartir junto a tus amigos y amigas durante la noche con
                 increíbles juegos que tenemos especialmente preparados para esta pijamada. Se incluye carpas tipi,
                 pijamas entreritos, sacos de dormir, cojines, juegos y desayuno.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Compra
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">Compra
                 aquí</button>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -147,10 +167,10 @@
             <p class="card-text">Vive la experiencia de celebrar tu cumpleaños con tus amigas y amigos con una increíble
                 pijamada, la cual incluye carpas tipi, disfraces, sacos de dormir, decoración, torta, jugos y un regalo
                 sorpresa para cada invitado. Máximo 15 niños/as por evento.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Compra
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">Compra
                 aquí</button>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -187,10 +207,10 @@
             <p class="card-text">En esta pijamada podrán disfrutar de toda una noche con una experiencia tanto para
                 ellas como para ellos. Pueden escoger entre una noche de spa o una noche de fogata. Incluye carpas tipi,
                 sacos de dormir, decoración, implementos y cóctel.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Compra
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal4">Compra
                 aquí</button>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">

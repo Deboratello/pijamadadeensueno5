@@ -48,8 +48,29 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-cart-shopping"></i></button>
-                </form>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#carrito"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="carrito" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Carrito de compras</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Atrás</button>
+                                    <button type="button" class="btn btn-primary">Finalizar Compra</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <form class="d-flex">
                     <input class="form-control me-sm-2" type="text" placeholder="Buscar">
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
