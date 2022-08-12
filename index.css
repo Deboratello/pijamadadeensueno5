@@ -35,6 +35,8 @@ textarea {
 h1 {
   padding-top: 10px;
   font-family: Duper;
+  font-weight: 700;
+  font-style: normal;
   Color: #ef7a75;
   font-size: x-large;
 }
@@ -86,6 +88,7 @@ p {
 .card p {
   width: 50%;
   color: white;
+  font-family: eigerdals;
 }
 
 .card p1 {
