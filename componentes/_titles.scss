@@ -5,16 +5,20 @@ h1{
     font-style: normal;
     Color: map-get($colors, coralito);
     font-size: x-large;
+    margin-left: 15px;
 }
 h2{
     font-family: eigerdals;
     color: map-get($colors, verdeclaro);
     font-size: large;
+    margin-left: 15px;
 }
 legend{
-    font-family: eigerdals;
-    Color: map-get($colors, verdeclaro);
+    @extend h2;
     font-size: medium;
+    span{
+        @extend h2
+    }
 }
 h3{
     font-family: Eigerdals;
@@ -33,8 +37,11 @@ h5{
     font-size: xx-large;
 }
 p{
-    font-family: Eigerdals;
+    @extend legend;
     font-size: medium;
     color: map-get($colors, verdeoscuro);    
     text-align: justify;
+    span{
+        @extend legend
+    }
 }
