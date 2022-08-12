@@ -1,4 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/873d0637853b9bf7b4766857dc714fba?family=FF+Duper);
 * {
   margin: 0;
   padding: 0;
@@ -81,7 +80,7 @@ p {
 
 .card img {
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   object-fit: cover;
 }
 
